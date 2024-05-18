@@ -1,6 +1,6 @@
 package ex03;
 
-public class ComplexNumberImpl {
+public class ComplexNumberImpl implements ComplexNumber {
 
     // Fields go here.
 
