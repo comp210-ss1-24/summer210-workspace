@@ -6,7 +6,7 @@ public class Point {
     // Fields
 
     /** The x-coordinate of the point. */
-    double x;
+    private double x;
     /** The y-coordinate of the point. */
     private double y;
 
