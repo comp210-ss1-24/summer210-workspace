@@ -1,6 +1,6 @@
 package ls09.ex01;
 
-public class RandomPerson implements Person, Comparable<Person> {
+public class RandomPerson implements Person {
     private String _name;
     private double _fame;
     private double _love;
@@ -59,14 +59,4 @@ public class RandomPerson implements Person, Comparable<Person> {
                 " " + lasts[(int) (Math.random()*lasts.length)];
     }
 
-    @Override
-    public int compareTo(Person o) {
-        if (getHappiness() < o.getHappiness()) {
-            return -1;
-        } else if (getHappiness() > o.getHappiness()) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
 }
